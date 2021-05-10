@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./styles/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="form-factura">
+        <div class="div-factura">
+            <h1>Orden de compra</h1>
+            <label for=""><strong>Ingrese la cantidad de computadores:</strong></label>
+            <input class="separacion" type="number" id="idCantidad" required>
+            <button onclick="Calcular()">Calcular</button>
+        </div>
+        <hr>
+
+        <div class="div-factura"><img src="./images/13802.svg" height="70px" alt="PC"></div>
+        <div class="div-factura">
+
+            <label><strong>Valor de compra:</strong></label>
+            <input type="number" id="idValorCompra">
+            <hr>
+            <label><strong>Valor de descuento:</strong></label>
+            <input type="number" id="idDescuento">
+            <hr>
+            <label><strong>Total a pagar:</strong></label>
+            <input type="number" id="idTotal">
+            <hr>
+            <h4><em>Gracias por su compra</em></h4>
+        </div>
+        <footer>
+
+            <p><strong>Copyright &copy; 2021 todos los derechos reservados.</strong></p>
+    
+        </footer>
+    </div>
+    
+
+    <script src="./scripts/scripts.js"></script>
+
+
+</body>
+
+</html>

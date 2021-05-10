@@ -1,0 +1,102 @@
+*{
+    margin:  0;
+    padding: 0;
+    
+}
+.body {
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.form-factura{
+    width:  400px;
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+text-align: center;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-family: 'Arial';
+    line-height: 30px;
+}
+.div-factura {
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    
+}
+footer{
+    text-align: center;
+}
+h1{
+    padding-bottom: 10px;
+}
+header {
+    text-align: center;
+    
+}
+
+.imagen-clase {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.barra-nav {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    bottom: 100px;
+}
+
+.clase-lista {
+    display: inline-block;
+    padding: 5px;
+    font-size: 25px;
+    color: rgb(19, 18, 18);
+    
+}
+.clase-lista a {
+    color: black;
+    padding-inline-start: 20px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.main-table {
+    text-align: center;
+margin-bottom: 100px;
+padding-bottom: 20px;
+background: #EFEFBB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+width: 100px;
+position: relative;
+left: 200px;
+border-radius: 100px;
+}
+.div-table {
+    text-align: center;
+    
+}
+.clase-td {
+    padding: 60px;
+}
+.clase-footer {
+    padding-bottom: 50px ;
+}
+
+.clase-enlace {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+.clase-p {
+    text-align: center;
+    font-size: 20px ;
+    font-family: 'arial';
+    padding: 20px;
+    color: black;
+}
