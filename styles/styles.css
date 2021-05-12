@@ -27,6 +27,10 @@ text-align: center;
     text-align: center;
     
 }
+#minimal{
+    font-size: 20px;
+    font-family: monospace;
+}
 footer{
     text-align: center;
 }
@@ -44,11 +48,16 @@ header {
     margin-top: 50px;
 }
 
-.barra-nav {
+.barra-nav{
     text-align: center;
     position: relative;
     display: inline-block;
     bottom: 100px;
+    
+}
+.#idParrafo {
+    position: relative;
+    right: 10px;
 }
 
 .clase-lista {
